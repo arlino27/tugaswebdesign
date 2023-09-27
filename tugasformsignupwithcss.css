@@ -1,0 +1,13 @@
+.gambaruk {
+    width: 40%; /* Lebar kontainer (50% layar) */
+    float: left; /* Mengatur gambar ke sebelah kiri */
+}
+  
+img {
+    width: 100%; /* Memastikan gambar memenuhi lebar kontainer */
+    height: auto; /* Menjaga aspek rasio gambar */
+}
+body {
+    
+    background-image: url(download.jpg);
+}

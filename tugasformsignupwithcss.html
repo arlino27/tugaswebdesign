@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Latihan CSS</title>
+      
+        <link rel="stylesheet" type="text/css" href="tugasformwithcss.css">
+    <body>
+        <h1 align="center">Sign Up</h1>
+        <h4 align="center">Pendaftaran Online Kuliah</h4>
+        <form action="biodata.php" method="POST" enctype="multipart/form-data"></form>
+        <table border="0" align="center">
+            <tr>
+                <td>Nama Awal</td>
+                <td>:</td>
+                <td><input type="text" name="first_name" values="Pauline Tumbel" size="20"></td>
+            </tr>
+            <tr>
+                <td>Nama Akhir</td>
+                <td>:</td>
+                <td><input type="text" name="last_name" size="20"></td>
+            </tr>
+            <tr>
+                <td>Nama Keluarga</td>
+                <td>:</td>
+                <td><input type="text" name="parents_name" size="20"></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>:</td>
+                <td><input type="text" name="Email" readonly size="20"></td>
+            </tr>
+            <tr>
+                <td>No. Whatsapp</td>
+                <td>:</td>
+                <td><input type="password" name="password" size="20"></td>
+            </tr>
+            <tr>
+                <td>Alamat Lengkap</td>
+                <td>:</td>
+                <td>
+                    <textarea rows="5" cols="50" name="address" >
+                    </textarea>
+                    </td>
+            </tr>
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td>
+                    <input class="teks-khusus" type="date" name="birthday"/>        
+                </td>
+            </tr>
+            <tr>
+                <td>Agama</td>
+                <td>:</td>
+                <td>
+                    <select class="teks-khusus" name = "religion">
+                        <option value="kristen" selected>Kristen</option>
+                        <option value="muslim">Katolik</option>
+                        <option value="budha">Budha</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="konghucu">Islam</option>
+                    </select>            
+                </td>
+            </tr>
+            <tr>
+                <td>Foto 3x4</td>
+                <td>:</td>
+                <td>
+                    <input class="teks-khusus" type="file" name="photo" accept="image/*" />        
+                </td>
+            </tr>
+            <tr>
+                <td>Ijazah SD</td>
+                <td>:</td>
+                <td>
+                    <input class="teks-khusus" type="file" name="ijazah SD" accept="image/*" />        
+                </td>
+            </tr>
+            <tr>
+                <td>Ijazah SMP</td>
+                <td>:</td>
+                <td>
+                    <input class="teks-khusus" type="file" name="ijazah SMP" accept="image/*" />        
+                </td>
+            </tr>
+            <tr>
+                <td>Ijazah SMA</td>
+                <td>:</td>
+                <td>
+                    <input class="teks-khusus" type="file" name="ijazah SMA" accept="image/*" />        
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button>Submit</button>
+                </td>
+            </tr>
+            
+        </table>
+    </body>    
+</html>
